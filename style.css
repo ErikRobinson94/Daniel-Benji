@@ -1,0 +1,347 @@
+body  {
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+    box-sizing: border-box;
+    
+}
+
+/* nav */
+#mainNav {
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    height: 97px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #E6E6E6;
+    font-family: "Open Sans",sans-serif;
+    color: #012346;
+    font-size: 17px;
+}
+
+#mainNav div {
+    height: 100%;
+
+}
+
+#Contact {
+    background: linear-gradient(135deg, #ff9462 0%, #ff5601 100%);
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    display: flex;
+    font-weight: bold;
+    width: 10%;
+    
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    
+}
+
+#logo img {
+    height: 80%;
+    
+}
+
+
+#otherLinks {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+    
+}
+
+#otherLinks div {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border-left: 1px solid #E6E6E6;
+
+}
+
+/* main hero */
+#main {
+    display: flex;
+    width: 100%;
+    height: 80vh;
+    background-color: #102b62;
+    margin-top: 97px;
+}
+
+#mainLeft {
+    display: flex;
+    background-image: url(Assets/leftside-3.0.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 60%;
+    background-position: center;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+
+}
+#textBox {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    
+}
+
+#align-text-box{
+    width: 90%;
+    height: auto;
+    flex-direction: column;
+    justify-content: end;
+    padding: 10px 10px 10px 10%;
+    z-index: 10;
+
+}
+
+#mainTag {
+    font-family: "Open Sans",sans-serif;
+    color: white;
+    font-size: 3em;
+    font-weight: 900;
+    line-height: 1.5em;
+}
+
+#slogan {
+    font-family: "Open Sans",sans-serif;
+    color: white;
+    font-size: 1.5em;
+    font-weight: 700;
+    line-height: 1em;
+
+}
+
+#callToAction {
+    font-family: "Open Sans",sans-serif;
+    color: white;
+    font-size: 1.5em;
+    font-weight: 700;
+
+}
+
+#credential1 {
+    position: absolute;
+    top: 100px;
+    left: 0;
+
+}
+
+#credential1 img {
+    height: 200px;
+    width: 200px;
+}
+
+#actionCollect {
+    width: 40%;
+    height: 100px;
+    display: flex;
+    gap: 5px;
+}
+
+#Why {
+    width: 50%;
+    height: 50px;
+    border: white 2px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Open Sans",sans-serif;
+    color: white;
+}
+
+#Case {
+    width: 50%;
+    height: 50px;
+    border: white 2px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Open Sans",sans-serif;
+    color: white;
+    background: linear-gradient(135deg, #ff9462 0%, #ff5601 100%);
+    
+}
+#mainRight {
+    height: 100%;
+    width: 40%;
+}
+
+#rightNav {
+    width: 85%;
+    height: 100%;
+    background: #fff;
+    display: flex;
+}
+
+#subrightNav {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+#rightNavInforPop {
+    height: 100%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    background: #F7F7F7;
+
+}
+
+#subrightNav div {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    border-bottom: 1px solid #EFEFEF;
+    cursor: pointer;
+    font-family: "Open Sans",sans-serif;
+    color: #012346;
+    letter-spacing: .08em;
+}
+
+#snapShotPop {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+#snapShotPop div {
+    display: flex;
+    flex-direction: column;
+    height: 25%;
+    width: 100%;
+    
+}
+
+#location {
+    border-bottom: 1px solid #E6E6E6;
+    display: block;
+    flex-direction: column;
+    color: #131543;
+    line-height: 0px;
+    text-align: center;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    font-family: "Open Sans",sans-serif;
+    margin: 0px;
+    padding: 0px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+
+
+
+
+}
+
+#reviews {
+    border-bottom: 1px solid #E6E6E6;
+    border-bottom: 1px solid #E6E6E6;
+    display: block;
+    flex-direction: column;
+    color: #131543;
+    line-height: 0px;
+    text-align: center;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    font-family: "Open Sans",sans-serif;
+    margin: 0px;
+    padding: 0px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+
+}
+
+#starCollection {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    flex-direction: row-reverse;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    align-content:center;
+
+
+}
+#starCollection img {
+    display: inline-block;
+
+
+}
+
+#recovered {
+    border-bottom: 1px solid #E6E6E6;
+    border-bottom: 1px solid #E6E6E6;
+    border-bottom: 1px solid #E6E6E6;
+    display: block;
+    flex-direction: column;
+    color: #131543;
+    line-height: 0px;
+    text-align: center;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    font-family: "Open Sans",sans-serif;
+    margin: 0px;
+    padding: 0px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+#orange {
+    color:#ff5601;
+}
+
+#reviewsLink {
+    line-height: 2em;
+}
+
+#topTrial{
+    border-bottom: 1px solid #E6E6E6;
+    border-bottom: 1px solid #E6E6E6;
+    border-bottom: 1px solid #E6E6E6;
+    display: block;
+    flex-direction: column;
+    color: #131543;
+    line-height: 0px;
+    text-align: center;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    font-family: "Open Sans",sans-serif;
+    margin: 0px;
+    padding: 0px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
