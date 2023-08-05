@@ -777,7 +777,6 @@ a {
 
 .align {
     width: 80%;
- 
     height: 100%;
     display: flex;
 }
@@ -806,6 +805,7 @@ a {
     align-items: start;
     align-content: start;
     flex-wrap: wrap;
+    
     
 }
 
@@ -876,4 +876,109 @@ a {
     text-align: center;
     position: absolute;
     left: 0;
+}
+
+#theBenj {
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Open Sans",sans-serif;
+    color: #012346;
+    padding-top: 50px;
+    background: #EFEFEF;
+    
+}
+
+#theBenj img {
+    height: 50%;
+    width: 50%;
+    
+    
+  
+    
+}
+
+.alignBenj {
+    display: flex;
+    width: 80%;
+    height: 100%;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 50px;
+
+
+}
+
+.left-column-Benj {
+    height: auto;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    
+
+    
+
+}
+
+.right-column-benji {
+    height: auto;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    align-content: start;
+    flex-wrap: wrap;
+    padding-left: 20px;
+    padding-right:50px;
+    
+}
+
+.right-column-benji p{
+    line-height: 2em;
+    
+}
+
+#bottom-wrap {
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+#wrapWrap {
+    width: 100%;
+    
+}
+
+.container-small{
+
+    height: 20vh;
+    width: 100%;
+    background: #EFEFEF;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: row;
+    gap: 50px;
+    font-family: "Open Sans",sans-serif;
+    color: #012346;
+    border: 2px solid orange;
+    padding-top: 50px;
+}
+
+.freeConsultationButton {
+    height: 150px;
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #ff9462 0%, #ff5601 100%);
 }
