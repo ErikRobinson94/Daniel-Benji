@@ -433,22 +433,99 @@ body  {
 #carLeft {
     height: 100%;
     width: 50%;
+    flex-direction: column;
     display: flex;
     align-items: center;
     align-content: center;
-    justify-content: center;
+    justify-content: start;
     position: relative;
     
     
+}
 
+#thisCar {
+    height: 50%;
+    Width: 100%;
+    z-index: 10;
+}
+
+#carAccidentOverview {
+    height: 50%;
+    Width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-top: 10px;
+   
+}
+
+#filterBox {
+    height: 40%;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    align-items: start;
+    justify-content: center;
+    
+
+    
 
 }
+
+.filterBoxHeading {
+    width: 100%;
+    height:auto;
+    font-family: "Open Sans",sans-serif;
+    color: white;
+    text-align: center;
+    margin-bottom: 0px;
+    line-height: 0px;
+    font-size: .8em;
+
+}
+
+.filterIcon {
+    display: flex;
+    flex: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 70%;
+    background-color:#ffab81;
+}
+
+.filterIcon img {
+    height: 35px;
+    width: 35px;
+}
+
+.filterLabel {
+    display: flex;
+    flex: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 30%;
+    color: white;
+    font-family: "Open Sans",sans-serif;
+}
+
+.filterCard {
+    height: 50%;
+    width: 25%;
+
+}
+
 #leftcol {
     height: 100%;
     width: 40%;
     background: linear-gradient(135deg, #ff9462 0%, #ff5601 100%);
     position: absolute;
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
     z-index: 1;
     left: 0;
 }
@@ -1412,3 +1489,4 @@ a {
     border: 1px solid white;
     margin-top: 20px;
 }
+
