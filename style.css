@@ -958,20 +958,28 @@ a {
     
 }
 
-.container-small{
-
-    height: 20vh;
+#negligenceBlurb{
+    height: 40vh;
     width: 100%;
     background: #EFEFEF;
     display: flex;
     align-items: center;
-    justify-content: start;
+    justify-content: center;
     flex-direction: row;
     gap: 50px;
     font-family: "Open Sans",sans-serif;
     color: #012346;
-    border: 2px solid orange;
-    padding-top: 50px;
+    padding-top: 150px;
+
+}
+
+.container-small {
+    width: 80%;
+    height: 100%;
+    display: flex;
+
+  
+   
 }
 
 .freeConsultationButton {
@@ -981,4 +989,100 @@ a {
     align-items: center;
     justify-content: center;
     background: linear-gradient(135deg, #ff9462 0%, #ff5601 100%);
+}
+
+#negligeneCopy {
+    display: flex;
+    height: 100%;
+    width: 50%;
+    flex-direction: column;
+    align-items: start;
+    margin-right: 100px;
+
+}
+
+#negligeneCopy h4 {
+    line-height: 2em;
+    font-size: 1.5em;
+    font-weight: 100;
+    margin-top: 0px;
+    margin-top: 20px;
+
+}
+
+
+#freeconsultNegligence {
+    display: flex;
+    height: 100%;
+    width: 50%;
+    flex-direction: column;
+    align-items: start;
+}
+
+#fullWidthConsult {
+    height: 50px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    background: linear-gradient(135deg, #ff9462 0%, #ff5601 100%);
+    font-family: "Open Sans",sans-serif;
+    letter-spacing: 1.5px;
+}
+
+#heading {
+    height: 7px;
+    width: 100px;
+    background: linear-gradient(135deg, #ff9462 0%, #ff5601 100%);
+}
+
+.cardtwo {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 100%;
+    width:50%;
+    
+}
+
+.cardthree {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 100%;
+    width:50%;
+
+}
+
+.cardone {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 100%;
+    width:50%;
+}
+
+#awwards {
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Open Sans",sans-serif;
+    color: #012346;
+    padding-top: 100px;
+    background: #EFEFEF;
+    padding-bottom: 75px;
+
+}
+
+.cardtwo img {
+    height: 95%;
+    width: auto;
 }
