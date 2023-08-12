@@ -7,6 +7,57 @@ body  {
     
 }
 
+/* about sub nav*/
+#howSubNav {
+    height: 0px;
+    width: 100%;
+    position: absolute;
+    background-color:#fff;
+    z-index: 0;
+    transition: height .5s;
+    display: flex;
+    justify-content: center;
+    font-family: "Open Sans",sans-serif;
+    color: #012346;
+}
+
+#howSubNav-col-1{
+    height: 100%;
+    width: 30%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 0;
+    
+}
+#howSubNav-col-2{
+    height: 100%;
+    width: 30%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 0px;
+    z-index: 0;
+    flex-direction: column;
+    
+}
+#howSubNav-col-3{
+    height: 100%;
+    width: 30%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 0px;
+    z-index: 0;
+    flex-direction: column;
+  
+    
+}
+
 /* nav */
 #mainNav {
     position: fixed;
@@ -82,6 +133,7 @@ body  {
     height: 80vh;
     background-color: #102b62;
     margin-top: 97px;
+    position: relative;
 }
 
 #mainLeft {

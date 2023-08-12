@@ -1,3 +1,31 @@
+// nav appear
+let howHover = document.getElementById('howWereYouInjured')
+let howSubMenu = document.getElementById('howSubNav')
+
+
+function showHowSubMenu () {
+    howSubMenu.style.height= '300px';
+    howSubMenu.style.zIndex='14';
+    howHover.style.borderTop = '8px solid orange';
+}
+
+howHover.addEventListener('mouseover', showHowSubMenu);
+howSubMenu.addEventListener('mouseover', showHowSubMenu);
+
+
+function removeHowSubMenu () {
+    howSubMenu.style.height= '0px';
+    howSubMenu.style.zIndex='0';
+    howHover.style.borderTop = 'none';
+
+}
+
+howSubMenu.addEventListener('mouseout', removeHowSubMenu);
+
+
+
+
+
 //carAccident BG
 let carBox = document.getElementById('car');
 let carText = document.getElementById('carRight');
