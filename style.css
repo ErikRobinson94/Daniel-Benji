@@ -430,6 +430,14 @@ body  {
     display: flex;
 }
 
+#truck {
+    height: 30%;
+    width: 80%;
+    background: white;
+    border-bottom: 1px solid #E6E6E6;
+    display: flex;
+}
+
 #carLeft {
     height: 100%;
     width: 50%;
@@ -538,6 +546,19 @@ body  {
 }
 
 #carRight{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Open Sans",sans-serif;
+    color: #012346;
+
+}
+
+#truckRight{
     width: 50%;
     height: 100%;
     display: flex;
@@ -750,6 +771,88 @@ a {
     line-height: 1.8em;
     font-weight: 400;
     
+
+  }
+
+  #premise-right-side {
+    height: 100%;
+    width: 70%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    align-content: start;
+    flex-direction: column;
+    font-family: "Open Sans",sans-serif;
+    color: #012346;
+    letter-spacing: .10em;
+    line-height: 1.8em;
+    font-weight: 400;
+    
+    
+
+  }
+
+  #product-right-side{
+    height: 100%;
+    width: 70%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    align-content: start;
+    flex-direction: column;
+    font-family: "Open Sans",sans-serif;
+    color: #012346;
+    letter-spacing: .10em;
+    line-height: 1.8em;
+    font-weight: 400;
+
+  }
+
+  #medical-right-side {
+    height: 100%;
+    width: 70%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    align-content: start;
+    flex-direction: column;
+    font-family: "Open Sans",sans-serif;
+    color: #012346;
+    letter-spacing: .10em;
+    line-height: 1.8em;
+    font-weight: 400;
+
+  }
+
+  #work-right-side {
+    height: 100%;
+    width: 70%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    align-content: start;
+    flex-direction: column;
+    font-family: "Open Sans",sans-serif;
+    color: #012346;
+    letter-spacing: .10em;
+    line-height: 1.8em;
+    font-weight: 400;
+
+  }
+
+  #wrong-right-side {
+    height: 100%;
+    width: 70%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    align-content: start;
+    flex-direction: column;
+    font-family: "Open Sans",sans-serif;
+    color: #012346;
+    letter-spacing: .10em;
+    line-height: 1.8em;
+    font-weight: 400;
 
   }
 
