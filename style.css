@@ -7,6 +7,7 @@ body  {
     
 }
 
+
 /* about sub nav*/
 #howSubNav {
     height: 0px;
@@ -15,7 +16,7 @@ body  {
     background-color:#fff;
     z-index: 0;
     transition: height .5s;
-    display: flex;
+    display: none;
     justify-content: center;
     font-family: "Open Sans",sans-serif;
     color: #012346;
@@ -75,11 +76,18 @@ body  {
     background-color: white;
 }
 
+
 #mainNav div {
     height: 100%;
 
 }
-
+#below-Nav {
+    height: 0px;
+    width: 100%;
+    position:fixed;
+    background-color: white;
+    z-index: 999;
+}
 #Contact {
     background: linear-gradient(135deg, #ff9462 0%, #ff5601 100%);
     align-content: center;
@@ -1645,3 +1653,138 @@ a {
     margin-top: 20px;
 }
 
+/* Motorcycle Page CSS*/
+.pagesHero{
+    height:90vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(Assets/benji-practice-area-parent-motorcycle-accidents-header.webp);
+    color: white;
+    font-family: "Open Sans",sans-serif;
+    font-size: 1.2em;
+}
+
+
+.pagesTemplate {
+    width: 80%;
+    height: 90%;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+}
+
+.pagesLeftColumn {
+    width: 40%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding: 5% 5% 0% 5%;
+    
+    
+}
+
+.pagesLeftColumn p {
+    line-height: 1.5em;
+}
+
+.pages-call-to-action {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    gap: 10px;
+}
+
+.phoneButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(135deg, #ff9462 0%, #ff5601 100%);
+    color: white;
+    height: 50px;
+    width: auto;
+    padding: 5px 10px 5px 10px;
+}
+
+.doIHaveACase {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: none;
+    border: 1px solid white;
+    color: white;
+    height: 50px;
+    width: auto;
+    padding: 5px 10px 5px 10px;
+}
+.pagesSubSection {
+    height:60vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    color: #012346;
+    font-family: "Open Sans",sans-serif;
+    font-size: 1.2em;
+    
+
+
+}
+
+.pagesRightColumn {
+    width: 40%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding: 5% 5% 0% 5%;
+    
+    
+}
+
+.pagesRightColumn img {
+    width: auto;
+    height: 100%;
+    
+    
+}
+#DanielBenjiDisplay {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    position: relative;
+
+}
+
+#main-display {
+    height: 50%;
+    width: 30%;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: start;
+    align-content: start;
+    line-height: 0em;
+    margin: 0px;
+    position: absolute;
+    text-align: center;
+    font-size: .7em;
+}
+
+#highlight-spacer {
+    width: 50%;
+    height: 2px;
+    background: linear-gradient(135deg, #ff9462 0%, #ff5601 100%);
+
+}

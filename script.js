@@ -6,6 +6,7 @@ let howSubMenu = document.getElementById('howSubNav')
 function showHowSubMenu () {
     howSubMenu.style.height= '300px';
     howSubMenu.style.zIndex='14';
+    howSubMenu.style.display='flex';
     howHover.style.borderTop = '8px solid orange';
 }
 
@@ -16,6 +17,7 @@ howSubMenu.addEventListener('mouseover', showHowSubMenu);
 function removeHowSubMenu () {
     howSubMenu.style.height= '0px';
     howSubMenu.style.zIndex='0';
+    howSubMenu.style.display='none';
     howHover.style.borderTop = 'none';
 
 }
