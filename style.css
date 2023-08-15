@@ -1655,7 +1655,7 @@ a {
 
 /* Motorcycle Page CSS*/
 .pagesHero{
-    height:90vh;
+    height:80vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -1664,6 +1664,20 @@ a {
     color: white;
     font-family: "Open Sans",sans-serif;
     font-size: 1.2em;
+    margin-top: 97px;
+}
+
+.pagesHeroCar{
+    height:80vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(Assets/benji-practice-area-parent-car-accident-tile-background-img.webp);
+    color: white;
+    font-family: "Open Sans",sans-serif;
+    font-size: 1.2em;
+    margin-top: 97px;
 }
 
 
@@ -1677,6 +1691,18 @@ a {
 
 .pagesLeftColumn {
     width: 40%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding: 5% 5% 0% 5%;
+    
+    
+}
+
+.pagesLeftColumnCar {
+    width: 30%;
     height: 90%;
     display: flex;
     flex-direction: column;
@@ -1730,17 +1756,52 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #fff;
+    background-color: #E6E6E6;
     color: #012346;
     font-family: "Open Sans",sans-serif;
     font-size: 1.2em;
+    padding-bottom: 50px;
+    
+
+
+}
+.pagesSubSection-CarAccident {
+    height:auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E6E6E6;
+    color: #012346;
+    font-family: "Open Sans",sans-serif;
+    font-size: 1.2em;
+    padding-bottom: 50px;
+    border-bottom: 1px solid black;
     
 
 
 }
 
+.orangeLine {
+    width: 20%;
+    height: 5px;
+    background: linear-gradient(135deg, #ff9462 0%, #ff5601 100%);
+}
+
 .pagesRightColumn {
     width: 40%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding: 5% 5% 0% 5%;
+    
+    
+}
+
+.pagesRightColumnCar {
+    width: 70%;
     height: 90%;
     display: flex;
     flex-direction: column;
@@ -1786,5 +1847,257 @@ a {
     width: 50%;
     height: 2px;
     background: linear-gradient(135deg, #ff9462 0%, #ff5601 100%);
+
+}
+
+.pagesLeftColumn-financial{
+    width: 20%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding: 5% 5% 0% 5%;
+    
+}
+
+.pagesRightColumn-financial {
+    width: 60%;
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    padding: 5% 5% 0% 5%;
+    gap: 10px;
+    align-content: space-around;
+    
+    
+}
+
+.financialCircle {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #ff9462 0%, #ff5601 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 1em;
+    font-weight: 700;
+    padding-left: 5px;
+
+
+}
+
+.financialCircle-plus{
+    height: 100%;
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pagesSubSection-avgpayout{
+    height:auto;
+    max-height: 80vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E6E6E6;
+    color: #012346;
+    font-family: "Open Sans",sans-serif;
+    font-size: 1.2em;
+
+}
+
+.pagesRightColumn-whatpayout {
+    height: auto;
+    width: 60%;
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    padding: 5% 5% 0% 5%;
+    gap: 10px;
+    align-content: space-around;
+}
+
+#graphicalPayout {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#difference-of{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+#BigCircle { 
+    height: 325px;
+    width: 325px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #ff9462 0%, #ff5601 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    text-align: center;
+    line-height: 0px;
+    align-content: start;
+    margin: 0px;
+
+}
+
+#centerBigCicle {
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: white;
+    position: relative;
+    line-height: 1em;
+}
+
+#small-circle {
+    height: 162.5px;
+    width: 162.5px;
+    background-color: #012346;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    line-height: 1em;
+    margin: 0px;
+}
+
+#withAttorney {
+    position: absolute;
+    top: 10%;
+
+}
+
+#DifferenceOf {
+    height: 15%;
+    width: 80%;
+    display: flex;
+    border-top: darkgrey 1px solid;
+    border-bottom: darkgrey 1px solid;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#DifferenceOf-left {
+    width: 50%;
+    height: 100%;
+    color: #ff5601;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+ 
+
+}
+
+#DifferenceOf-right {
+    width: 50%;
+    height: 100%;
+    color: #ff5601;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+ 
+
+}
+
+#number {
+
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: #012346;
+    text-align: center;
+    height: 80%;
+    width: 90%;
+    background-color: white;
+
+
+}
+
+#martindale-nolo {
+    font-size: 10px;
+}
+
+.shortSpacer{
+    width: 80%;
+    height: 2px;
+    background: linear-gradient(135deg, #ff9462 0%, #ff5601 100%);
+}
+
+.pagesLeftColumn-sub {
+    width: 1%;
+    height:50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #ff9462 0%, #ff5601 100%);
+    margin-right: 10%;
+    
+    
+
+}
+
+.pagesRightColumn-sub {
+    width: 70%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+
+    
+    
+    
+}
+
+.pagesSubSection-sub {
+    height:50vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E6E6E6;
+    color: #012346;
+    font-family: "Open Sans",sans-serif;
+    font-size: 1.2em;
+    
+   
+   
+    
+   
+ 
 
 }

@@ -1,3 +1,7 @@
+// hover effect on hrefs
+
+
+
 // nav appear
 let howHover = document.getElementById('howWereYouInjured')
 let howSubMenu = document.getElementById('howSubNav')
