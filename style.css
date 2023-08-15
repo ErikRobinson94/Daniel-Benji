@@ -1680,6 +1680,18 @@ a {
     margin-top: 97px;
 }
 
+.pagesHeroTruck{
+    height:80vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(Assets/benji-practice-area-parent-truck-accidents-header.webp);
+    color: white;
+    font-family: "Open Sans",sans-serif;
+    font-size: 1.2em;
+    margin-top: 97px;
+}
 
 .pagesTemplate {
     width: 80%;
@@ -1751,7 +1763,7 @@ a {
     padding: 5px 10px 5px 10px;
 }
 .pagesSubSection {
-    height:60vh;
+    height:80vh;
     width: 100%;
     display: flex;
     align-items: center;
