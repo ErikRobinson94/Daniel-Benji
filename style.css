@@ -1555,6 +1555,7 @@ a {
 #contactForm input {
     display: inline-block;
     width: 80%;
+    text-align: left;
   
     
 }
@@ -1788,7 +1789,7 @@ a {
     font-family: "Open Sans",sans-serif;
     font-size: 1.2em;
     padding-bottom: 50px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid lightgray;
     
 
 
@@ -2105,11 +2106,89 @@ a {
     color: #012346;
     font-family: "Open Sans",sans-serif;
     font-size: 1.2em;
-    
-   
-   
-    
-   
- 
 
 }
+
+  /* bicycle page */
+  .blog-section {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    margin-top: 97px;
+    background-color: #E6E6E6;
+
+  }
+
+  .blog-header {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+    font-family: "Open Sans",sans-serif;
+    color: white;
+    font-size: 1.5em;
+  }
+
+  .blog-main-content {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    padding-left: 5%;
+    padding-right: 10%;
+    font-family: "Open Sans",sans-serif;
+    font-size: 1.2em;
+    color: #012346;
+    line-height: 2em;
+    overflow: scroll;
+    overflow-x: hidden;
+
+
+  }
+
+  .blog-main-content::-webkit-scrollbar{
+    display: none;
+  }
+
+  .blog-header h1 {
+    line-height: 1.5em;
+  }
+  .blog-title {
+    height: 50%;
+    width: 70%;
+    line-height: 2em;
+    margin: 0px;
+    padding-right: 10px;
+    gap: 0px;
+  }
+
+   #bicycle-page {
+    background-image: url(Assets/Benji-practice-area-bicycle-header-2.png);
+    background-size: cover;
+    
+  } 
+
+  #pedestrian-page {
+    background-image: url(Assets/benji-practice-area-pedestrian-lawyer-los-angeles.png);
+    background-size: cover;
+    
+  } 
+  #Uber-Accident-page {
+    background-image: url(Assets/Benji-practice-area-uber\ accident\ lawyer.png);
+    background-size: cover;
+    
+  } 
+
+
+  .blog-hero-wrap{
+    display: flex;
+    height:100%;
+    width: 100%;
+  }
+
