@@ -2185,6 +2185,13 @@ a {
     
   } 
 
+  #bus-accident-page {
+    background-image: url(Assets/Benji-practice-area-bus-accident-lawyer-header.png);
+    background-size: cover;
+    
+
+  }
+
 
   .blog-hero-wrap{
     display: flex;
